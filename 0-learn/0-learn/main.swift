@@ -304,7 +304,7 @@ class Shape{
     let letNumber = 19
     func simpleDescription() -> String{
         return "A shape with \(numberOfSides) sides. and \(letNumber)"
-    }
+    } 
     
 }
 // Create an instance 实例 of a class by putting parentheses 圆括号 after the class name. Use dot syntax 点语法 to access the properties 属性 and methods of the instance.
