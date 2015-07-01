@@ -36,15 +36,15 @@ class ViewController: UIViewController
         }
         
         switch operation {
-            case "×": performOperation(multiply)
-            case "÷": performOperation(multiply)
-            case "+": performOperation(multiply)
-            case "−": performOperation(multiply)
+        case "×": performOperation(){$0 * $1}
+            case "÷": performOperation(){$1 / $0}
+            case "+": performOperation(){$0 + $1}
+            case "−": performOperation(){$1 - $0}
         default:break
         }
     }
     
-    func performOperation(operation:  ...){
+    func performOperation(operation:(Double,Double) ->Double){
         if operandStack.count >= 2 {
             displayValue = operandStack.removeLast() * operandStack.removeLast()
             enter()
