@@ -411,6 +411,7 @@
 				E5EC203A1B2D56F90063C624 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E5EC203B1B2D56F90063C624 /* Build configuration list for PBXNativeTarget "CaiculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +420,7 @@
 				E5EC203D1B2D56F90063C624 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

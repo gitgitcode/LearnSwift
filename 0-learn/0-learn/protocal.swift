@@ -20,7 +20,7 @@ func test() {
     var f = repeats("knock", 4)
     println(f)
 }
-test()
+//test()
 //enum OptionalValue<T> {
 //    case None
 //    case Some(T)

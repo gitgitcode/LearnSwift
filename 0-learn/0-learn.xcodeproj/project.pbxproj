@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E50DF7D81B4604390006BB44 /* 1-learn.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50DF7D71B4604390006BB44 /* 1-learn.swift */; };
 		E5EC200F1B1AED800063C624 /* protocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EC200E1B1AED800063C624 /* protocal.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E50DF7D71B4604390006BB44 /* 1-learn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1-learn.swift"; sourceTree = "<group>"; };
 		E52B4F551B0438230089CFF2 /* 0-learn */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "0-learn"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E52B4F581B0438230089CFF2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		E5EC200E1B1AED800063C624 /* protocal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = protocal.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 			children = (
 				E52B4F581B0438230089CFF2 /* main.swift */,
 				E5EC200E1B1AED800063C624 /* protocal.swift */,
+				E50DF7D71B4604390006BB44 /* 1-learn.swift */,
 			);
 			path = "0-learn";
 			sourceTree = "<group>";
@@ -120,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E50DF7D81B4604390006BB44 /* 1-learn.swift in Sources */,
 				E5EC200F1B1AED800063C624 /* protocal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
